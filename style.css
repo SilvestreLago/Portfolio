@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #0011ff, #4400ff, #5900ff, #9900ff);
+    height: 100vh;
+    margin: 0;
+    color: #00000000;
+    overflow: hidden;
+    font-family: "Rubik", sans-serif;
+}
+#intro {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card {
+    margin: 10px;
+    width: 300px;
+}
+h2 {
+    margin-left: 10px;
+    }
+.icons-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.icons-text-container h1 {
+    font-size: 4rem;
+    margin: 0 10px;
+}
+#dev{
+    font-size: 6rem;
+}
+.icons-text-container svg {
+    margin: 0 5px;
+    width: 32px;
+    height: 32px;
+}
+p {
+    margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: calc(100% - 20px);
+    }
+    .icons-text-container h1 {
+        font-size: 3rem;
+    }
+    #dev{
+        font-size: 4rem;
+    }
+}
+
+::-webkit-scrollbar {
+width: 10px; 
+}
+
+
+::-webkit-scrollbar-track {
+background: #2a3f5e; 
+}
+
+
+::-webkit-scrollbar-thumb {
+background: #bdb9b9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+section{
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.671) 10px 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.content{
+    height: 100vh;
+    overflow-y: auto;
+}
+
+section>h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+}
