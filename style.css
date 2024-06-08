@@ -6,7 +6,6 @@ body, html {
     margin: 0;
     padding: 0;
     background: radial-gradient(circle, #0011ff, #4400ff, #5900ff, #9900ff);
-    height: 100vh;
     margin: 0;
     color: #00000000;
     overflow: hidden;
@@ -20,7 +19,6 @@ body, html {
     align-items: center;
     text-align: center;
     padding: 20px;
-
 }
 .card-container {
     display: flex;
@@ -35,6 +33,10 @@ body, html {
 h2 {
     margin-left: 10px;
     }
+.icons-text-container2{
+    display: none;
+}
+
 .icons-text-container {
     display: flex;
     align-items: center;
@@ -45,34 +47,16 @@ h2 {
     font-size: 4rem;
     margin: 0 10px;
 }
-#dev{
-    font-size: 6rem;
-}
 .icons-text-container svg {
     margin: 0 5px;
     width: 32px;
     height: 32px;
 }
+#dev{
+    font-size: 6rem;
+}
 p {
     margin: 5px 0;
-}
-
-@media (max-width: 768px) {
-    .card {
-        width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 576px) {
-    .card {
-        width: calc(100% - 20px);
-    }
-    .icons-text-container h1 {
-        font-size: 3rem;
-    }
-    #dev{
-        font-size: 4rem;
-    }
 }
 
 ::-webkit-scrollbar {
@@ -112,4 +96,50 @@ section>h1{
     text-align: center;
     font-size: 50px;
     padding-top: 30px;
+}
+#intro2 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+@media only screen and (max-width: 1200px) {
+    section{
+        margin: 15px;
+    }
+    .icons-text-container h1{
+        font-size: 40px;
+    }
+
+    .icons-text-container svg{
+        display: none;
+    }
+
+    .icons-text-container2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .icons-text-container2 svg {
+        margin: 0 5px;
+        width: 32px;
+        height: 32px;
+    }
+
+    #dev{
+        font-size: 350%;
+    }
+
+    .artigo{
+        width: 320px;
+        height: 240px;
+    }
+    #intro2 {
+        margin-top: -80px;
+    }
 }
