@@ -97,7 +97,7 @@ section>h1{
     font-size: 50px;
     padding-top: 30px;
 }
-#intro2 {
+.intro2 {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -139,7 +139,7 @@ section>h1{
         width: 320px;
         height: 240px;
     }
-    #intro2 {
+    .intro2 {
         margin-top: -80px;
     }
 }
