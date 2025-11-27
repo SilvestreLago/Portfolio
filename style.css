@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-
 body, html {
     height: 100%;
     margin: 0;
@@ -11,6 +10,7 @@ body, html {
     overflow: hidden;
     font-family: "Rubik", sans-serif;
 }
+
 #intro {
     min-height: 100vh;
     display: flex;
@@ -20,6 +20,60 @@ body, html {
     text-align: center;
     padding: 20px;
 }
+.biografia {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerPato {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.pato {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 40px;
+    height: auto;
+    animation: andar 20s linear infinite;
+}
+
+@keyframes andar{
+0% {
+    left: -100px;
+    transform: scaleX(1);
+    }
+    50% {
+    left: 100%;
+    transform: scaleX(1);
+    }
+    51% {
+    transform: scaleX(-1);
+    }
+    100% {
+    left: -100px;
+    transform: scaleX(-1);
+    }
+}
+
+#foto {
+    border-radius: 100px;
+    flex-shrink: 0;
+}
+
+.biografia p, p{
+    text-align: justify;
+    max-width: 700px;
+}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -98,7 +152,6 @@ section>h1{
     padding-top: 30px;
 }
 .intro2 {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,7 +192,12 @@ section>h1{
         width: 320px;
         height: 240px;
     }
-    .intro2 {
-        margin-top: -80px;
+    #intro h2{
+        font-size: 23px;
     }
+}
+
+footer{
+    background-color: black;
+    margin: 10%;
 }

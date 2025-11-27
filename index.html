@@ -6,12 +6,13 @@
     <title>Portfólio</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="shortcut icon" href="./img/pato.png" type="image/x-icon">
 </head>
 <body>
     <div class="content" id="inicio">
+      <!--TELA INICIAL-->
       <div id="intro" class="text-white">
-          <h2>OI, EU SOU O JOÃO</h2>
+          <h2>OI, EU SOU O SILVESTRE</h2>
           <div class="icons-text-container">
               <h1>BACK-END</h1>
               <a href="https://www.linkedin.com/in/silvestrelago/" target="_blank" rel="noopener noreferrer">
@@ -50,7 +51,73 @@
             </a>
         </div>
       </div>
-            
+
+      <!--BIOGRAFIA-->
+      <section>
+            <h1>BIOGRAFIA</h1>
+            <hr>
+            <div class="biografia">
+                <img src="https://avatars.githubusercontent.com/u/87388202?v=4" width="150px" alt="foto" id="foto">
+
+                <p>👋 Olá! Eu sou <strong>João Vitor Silvestre Lago</strong>, natural de Jacobina Bahia, uma cidade no interior do estado, próximo à chapada diamantina, sou um entusiasta da tecnologia que transformou curiosidade em carreira. Desenvolvedor backend com foco em <strong>C#</strong> e <strong>Python</strong>, sou movido por desafios e apaixonado por criar soluções que realmente façam a diferença.</p>
+
+                <p>🚀 Ao longo da minha jornada acadêmica, conquistei uma formação como <strong>técnico em informática</strong> no IFBA campus Jacobina e estou me graduando como <strong>engenheiro de software</strong> na UFC campus Russas.  Durante minha formação técnica realizei a publicação de <strong>2 artigos</strong>, um envolvedo análise de dados sobre a <a href="#artigo01">educação dos IF's</a> e o outro sobre como melhorar a segurança nas escolas a partir do desenvolvimento de um <a href="#artigo02">sistema de controle de entrada</a> com reconhecimento facial.</p>
+                <br>
+            </div>
+      </section>
+
+      <!--FORMAÇÃO-->
+      <section>
+      <h1>FORMAÇÃO</h1>
+          <div class="row text-center mb-3 justify-content-center" style="width: 100%; padding-left: 30px; margin-top: 50px;">
+            <div class="card border-secondary" style="width: 18rem;">
+              <img src="./img/certificacao.jpeg" class="card-img-top" alt="...">
+              <div class="card-header">
+                Formação educacional
+              </div>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Bacharelado em engenharia de software: UFC campus Russas (2025 - Em Andamento)</li>
+                  <li class="list-group-item">Técnico em informática: IFBA campus Jacobina (2020 - 2024)</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card border-secondary" style="width: 18rem;">
+              <img src="./img/educacao.jpeg" class="card-img-top" alt="...">
+              <div class="card-header">
+                Linguagens de programação
+              </div>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">C#: Intemediário</li>
+                  <li class="list-group-item">Python: Intemediário</li>
+                  <li class="list-group-item">PHP: Intemediário</li>
+                  <li class="list-group-item">Javascript: Intemediário</li>
+                  <li class="list-group-item">SQL: Intemediário</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="card border-secondary" style="width: 18rem;">
+              <img src="./img/programacao.png" class="card-img-top" alt="...">
+              <div class="card-header">
+                Experiência profissional
+              </div>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Desenvolvedor: Include Jr</li>
+                  <br>
+                  <li class="list-group-item">Estagiário: Newnet</li>
+                  <br>
+                  <li class="list-group-item">Freelancer</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!--PROJETOS-->
       <section>
       <h1>PROJETOS</h1>
           <div class="row text-center mb-3 justify-content-center" style="width: 100%; padding-left: 30px; margin-top: 50px;">
@@ -79,83 +146,60 @@
               </div>
 
               <div class="card border-secondary">
-                <img src="./img/mensagem.png" class="card-img-top" alt="...">
+                <img src="./img/eventos.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h4 class="card-title">Sistema de mensagens</h4>
-                    <p class="card-text">Um sistema web de mensagens feito com <strong>JAVASCRIPT</strong>, <strong>PHP</strong> e <strong>MYSQL</strong>. Esse sistema possui: Mensagens privadas, mensagens públicas e sistema de amizades.</p>
+                    <h4 class="card-title">Inscrição em eventos</h4>
+                    <p class="card-text">Um sistema web (back-end) de para realizar a inscrição em eventos. O sistema foi construido com <strong>Express</strong>, <strong>PostgreSQL</strong> e <strong>JWT</strong>. O sistema foi construido para o processo de trainee na Include.</p>
                 </div>
       
-                <a href="https://github.com/SilvestreLago/App_de_mensagens" target="_blank" class="btn btn-primary">Ver projeto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+                <a href="https://github.com/grupo2-trainee/portal-inscricao-eventos-backend" target="_blank" class="btn btn-primary">Ver projeto <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
                   <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
                 </svg></i></a>
     
               </div>
       </section>
-      
+
+      <!--ARTIGOS-->
       <section>
-      <h1>FORMAÇÃO</h1>
-          <div class="row text-center mb-3 justify-content-center" style="width: 100%; padding-left: 30px; margin-top: 50px;">
-            <div class="card border-secondary" style="width: 18rem;">
-              <img src="./img/educacao.jpeg" class="card-img-top" alt="...">
-              <div class="card-header">
-                Formação educacional
-              </div>
-              <div class="card-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Bacharelado em engenharia de software: UFC campus Russas (2025 - Em Andamento)</li>
-                  <li class="list-group-item">Técnico em informática: IFBA campus Jacobina (2020 - 2024)</li>
-                </ul>
-              </div>
+            <h1>ARTIGOS</h1>
+            <hr>
+            <div class="intro2">
+                <h4 id="artigo01">EDUCAÇÃO TECNOLÓGICA: UMA ANÁLISE SOBRE O IMPACTO DO INSTITUTO FEDERAL NA EDUCAÇÃO DO ESTADO DA BAHIA</h4>
+                <p><strong>Resumo: </strong>Este artigo tem como objetivo analisar os efeitos da implantação dos campi do Instituto Federal da Bahia (IFBA) na transformação do cenário educacional dos municípios onde estão inseridos. A partir de uma investigação quantitativa e exploratória, utilizando dados públicos do MEC e do IBGE, o estudo avalia como o acesso ao ensino técnico e tecnológico contribuiu para o avanço da educação básica e profissional. A pesquisa mostra que, além de ampliar as oportunidades de formação, a presença do IFBA nos territórios estimula o desenvolvimento local, gera impacto positivo nos indicadores de qualidade da educação e promove a inclusão social e digital, especialmente em regiões historicamente carentes de infraestrutura educacional. O trabalho também destaca o papel da tecnologia como aliada no processo de ensino-aprendizagem, reforçando a importância da interiorização da educação pública federal como política de transformação social.</p>
+                <a href="https://editorarealize.com.br/artigo/visualizar/95774" target="_blank">Link para o artigo.</a>
             </div>
-
-            <div class="card border-secondary" style="width: 18rem;">
-              <img src="./img/programacao.png" class="card-img-top" alt="...">
-              <div class="card-header">
-                Linguagens de programação
-              </div>
-              <div class="card-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Python: Intemediário</li>
-                  <li class="list-group-item">PHP: Intemediário</li>
-                  <li class="list-group-item">Javascript: Intemediário</li>
-                  <li class="list-group-item">SQL: Intemediário</li>
-                </ul>
-              </div>
+            <hr>
+            <div class="intro2">
+                <h4 id="artigo02">SISTEMA COM RECONHECIMENTO FACIAL PARA CONTROLE DE ACESSO AO IFBA - CAMPUS JACOBINA</h4>
+                <p><strong>Resumo: </strong>O projeto apresenta o desenvolvimento de um sistema de controle de acesso com reconhecimento facial para o IFBA – Campus Jacobina. A iniciativa surgiu com o objetivo de modernizar o processo de entrada de estudantes e servidores, substituindo métodos convencionais como crachás ou senhas por uma solução mais segura e eficiente. A tecnologia permite a identificação automática e em tempo real de pessoas autorizadas, agilizando o acesso às dependências da instituição e aumentando a segurança do ambiente. Além de trazer benefícios práticos para a gestão do campus, o projeto também demonstra o potencial da aplicação de inteligência artificial e visão computacional em soluções voltadas ao setor educacional.</p>
+                <a href="https://www.even3.com.br/anais/connepi-belem-2024/835345-sistema-com-reconhecimento-facial-para-controle-de-acesso-ao-ifba---campus-jacobina/" target="_blank">Link para o artigo.</a>
             </div>
-
-            <div class="card border-secondary" style="width: 18rem;">
-              <img src="./img/certificacao.jpeg" class="card-img-top" alt="...">
-              <div class="card-header">
-                Certificados
-              </div>
-              <div class="card-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item"><a href="https://drive.google.com/file/d/16ZkS6MazvK7tMsJFMRetPvGECUo3DRQL/view?usp=sharing" target="_blank" rel="noopener noreferrer">CONEDU</a></li>
-                  <br>
-                  <li class="list-group-item"><a href="https://drive.google.com/file/d/1rYrG156FbWrfE4NKuk9kk9uagt1nOUgP/view?usp=sharing" target="_blank" rel="noopener noreferrer">CONNEPI</a></li>
-                  <br>
-                  <li class="list-group-item"><a href="https://drive.google.com/file/d/1exBjMuJ2AmjjQdw008EwuANYEOrKil48/view?usp=sharing" target="_blank" rel="noopener noreferrer">SNCT</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-      </section>
-
-      <section>
-        <h1>Artigos</h1>
-        <div class="intro2">
-          <h4>EDUCAÇÃO TECNOLÓGICA: UMA ANÁLISE SOBRE O IMPACTO DO INSTITUTO FEDERAL NA EDUCAÇÃO DO ESTADO DA BAHIA</h4>
-          <iframe src="https://drive.google.com/file/d/1jLFYMUVNPup0BOTuYN3GpwftwESpHuyI/preview" width="640" height="480" allow="autoplay" class="artigo"></iframe>
-          <a href="https://editorarealize.com.br/artigo/visualizar/95774" target="_blank">Link do artigo na editora Realize</a>
-        </div>
-        <div class="intro2">
-          <h4>SISTEMA COM RECONHECIMENTO FACIAL PARA CONTROLE DE ACESSO AO IFBA - CAMPUS JACOBINA</h4>
-          <iframe src="https://drive.google.com/file/d/1ijJZUGNxPKgXDQTMZ8fx1XH90aeNC9j3/preview" width="640" height="480" allow="autoplay" class="artigo"></iframe>
-          <a href="https://www.even3.com.br/anais/connepi-belem-2024/835345-sistema-com-reconhecimento-facial-para-controle-de-acesso-ao-ifba---campus-jacobina/" target="_blank">Link do artigo na editora Even3</a>
-        </div>
-      </section>
+        </section>
       <br>
     </div>
 </div>
 </body>
+<!--PATO-->
+<div class="containerPato">
+    <img src="./img/pato.png" alt="Pato andando" class="pato">
+</div>
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+</div>
+<script>
+    const pato = document.querySelector('.containerPato');
+    let som = new Audio('./audio/quack.mp3');
+    pato.addEventListener('click', () => {
+        som.play();
+    });
+</script>
+
+<!--VLIBRAS-->
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
 </html>
